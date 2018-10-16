@@ -1,4 +1,6 @@
-const { execSync } = require("child_process");
+const { execSync } = require("child_process")
+const fs = require("fs")
+const path = require("path")
 
 const modules = [
     "babel-eslint",
@@ -13,6 +15,9 @@ const modules = [
     "jest-cli",
     "lint-staged",
     "prettier"
-];
+]
 
-execSync(`npm install --save-dev ${modules.join(" ")}`);
+execSync(`npm install --save-dev ${modules.join(" ")}`, { stdio: "inherit" })
+
+const templatesDir = path.join(__dirname, "templates")
+fs.readdirSync(templatesDir).forEach(file => execSync(`cp ${path.join(templatesDir, file)} .`))

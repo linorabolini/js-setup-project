@@ -1,19 +1,33 @@
 {
-  "name": "js-setup-project",
-  "version": "0.0.1",
-  "description": "setup project linters for JS dev",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/linorabolini/js-setup-project.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/linorabolini/js-setup-project/issues"
-  },
-  "homepage": "https://github.com/linorabolini/js-setup-project#readme"
+    "name": "js-setup-project",
+    "version": "0.0.1",
+    "description": "setup project linters for JS dev",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/linorabolini/js-setup-project.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/linorabolini/js-setup-project/issues"
+    },
+    "homepage": "https://github.com/linorabolini/js-setup-project#readme",
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.7.0",
+        "eslint-config-prettier": "^3.1.0",
+        "eslint-plugin-babel": "^5.2.1",
+        "eslint-plugin-jest": "^21.25.1",
+        "eslint-plugin-prettier": "^3.0.0",
+        "eslint-plugin-react": "^7.11.1",
+        "husky": "^1.1.2",
+        "jest": "^23.6.0",
+        "jest-cli": "^23.6.0",
+        "lint-staged": "^7.3.0",
+        "prettier": "^1.14.3"
+    }
 }
