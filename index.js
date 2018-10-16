@@ -1,3 +1,8 @@
+#!/usr/bin/env node
+
+console.log("🙌  Thanks for trying out https://github.com/linorabolini/js-setup-project!")
+console.log("")
+
 const { execSync } = require("child_process")
 const fs = require("fs")
 const path = require("path")
