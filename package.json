@@ -1,6 +1,6 @@
 {
     "name": "js-setup-project",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "setup project linters for JS dev",
     "main": "index.js",
     "bin": "index.js",
